@@ -20,7 +20,5 @@ export const MethodSection = () => {
     title: "Escala:",
     description: "Montando sua Agência de IA para vender em alto volume."
   }];
-  return <section className="py-20 bg-muted/30">
-      
-    </section>;
+  return;
 };
