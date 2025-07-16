@@ -29,7 +29,7 @@ export const MentorSection = () => {
                 
                 <div className="space-y-4 pt-4">
                   <p className="text-lg font-semibold">
-                    Agora, <span className="text-primary">transformei esse processo em uma formação completa</span>, 
+                    Agora, <span className="text-primary">transformei esse processo em um curso completo</span>, 
                     para que você possa fazer o mesmo — sem precisar errar sozinho.
                   </p>
                   
