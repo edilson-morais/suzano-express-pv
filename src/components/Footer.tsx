@@ -41,7 +41,7 @@ export const Footer = () => {
           
           <div className="border-t border-primary/20 pt-8 text-center space-y-4">
             <p className="text-lg font-bold">
-              Todos os direitos reservados – <span className="text-primary">Duni Digital 2025</span>
+              Todos os direitos reservados – <span className="text-primary">edilson morais 2025</span>
             </p>
             
             <div className="text-sm text-muted-foreground">
