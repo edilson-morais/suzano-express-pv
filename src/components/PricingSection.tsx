@@ -20,7 +20,7 @@ export const PricingSection = () => {
                 
                 <div className="space-y-2">
                   <p className="text-lg">
-                    De <span className="line-through text-muted-foreground">R$ 1.997,00</span> por apenas:
+                    De <span className="line-through text-muted-foreground">R$ 397,00</span> por apenas:
                   </p>
                   
                   <div className="space-y-1">
