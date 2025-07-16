@@ -26,7 +26,7 @@ export const HeroSection = () => {
               
             </h2>
             
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">Aprenda o passo a passo prático para criar automações com IA, conquistar clientes de alto ticket e aplicar tudo com ferramentas acessíveis como n8n — sem precisar programar, mesmo que você nunca tenha tocado em código.</p>
+            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">Está cansado de não ter ideias na hora de tocar pandeiro? Com nosso método exclusivo, você vai desbloquear seu potencial criativo e apresentar ritmos novos e empolgantes. Domine técnicas inovadoras e impressione a todos!</p>
           </div>
           
           <div className="pt-8">
