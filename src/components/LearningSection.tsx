@@ -26,7 +26,7 @@ export const LearningSection = () => {
             </p>
             
             <Button variant="cta" size="xl">
-              Quero Me Tornar Um Cr[IA]dor da Nova Era
+              QUERO COMEÇAR AGORA
             </Button>
           </div>
         </div>

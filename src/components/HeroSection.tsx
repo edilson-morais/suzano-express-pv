@@ -33,7 +33,7 @@ export const HeroSection = () => {
           
           <div className="pt-8">
             <Button variant="hero" size="xl" className="mb-8">
-              Quero Me Tornar Um Cr[IA]dor da Nova Era
+              QUERO COMEÇAR AGORA
             </Button>
           </div>
           

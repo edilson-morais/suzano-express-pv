@@ -44,7 +44,7 @@ export const PricingSection = () => {
               </div>
               
               <Button variant="hero" size="xl" className="w-full">
-                Quero o plano anual!
+                QUERO COMEÇAR AGORA
               </Button>
               
               <div className="flex items-center justify-center space-x-4 pt-4">
@@ -88,7 +88,7 @@ export const PricingSection = () => {
               </div>
               
               <Button variant="outline" size="xl" className="w-full">
-                Quero o plano mensal!
+                QUERO COMEÇAR AGORA
               </Button>
             </Card>
           </div>

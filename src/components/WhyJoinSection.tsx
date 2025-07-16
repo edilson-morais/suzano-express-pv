@@ -61,7 +61,7 @@ export const WhyJoinSection = () => {
             
             <div className="text-center space-y-8">
               <Button variant="cta" size="xl">
-                Quero Me Tornar Um Cr[IA]dor da Nova Era
+                QUERO COMEÇAR AGORA
               </Button>
               
               <div className="flex items-center justify-center space-x-4">

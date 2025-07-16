@@ -52,7 +52,7 @@ export const MethodSection = () => {
                 </div>
                 
                 <Button variant="outline" className="w-full">
-                  Quero Me Tornar Um Cr[IA]dor da Nova Era
+                  QUERO COMEÇAR AGORA
                 </Button>
               </Card>
             ))}
