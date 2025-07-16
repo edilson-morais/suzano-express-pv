@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 export const LearningSection = () => {
-  const learningPoints = ["Construir agentes inteligentes com n8n integrados com WhatsApp, CRMs, APIs e bancos de dados", "Criar automações que economizam tempo e geram faturamento", "Desenvolver soluções reais para empresas — e vender essas soluções", "Validar sua oferta e montar sua própria Agência de IA", "Aprender técnicas de vendas que funcionam, mesmo se você nunca vendeu nada online"];
+  const learningPoints = ["Método comprovado: mais de 800 alunos no Japão e mais de 2.000 alunos no Brasil", "3 vídeos por ritmo: execução, explicação e câmera lenta", "Técnica Invertida: marca registrada de Suzano", "Grupos exclusivos no WhatsApp por nível", "Acesso 24h por 2 anos, sem precisar ler partitura"];
   return <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center space-y-12">
