@@ -48,7 +48,7 @@ export const HeroSection = () => {
                 + <span className="text-primary">dominando o PANDEIRO</span> alunos <span className="font-bold">dominando a IA</span>
               </p>
               <p className="text-lg">
-                e enriquecendo <span className="font-bold">mais ainda!</span>
+                e enriquecendo <span className="font-bold">e tocando cada vez mais ainda!</span>
               </p>
             </div>
           </div>
