@@ -15,12 +15,10 @@ export const PricingSection = () => {
           <div className="grid lg:grid-cols-2 gap-8">
             {/* Plano Anual */}
             <Card className="p-8 space-y-8 border-primary bg-gradient-primary/5 relative overflow-hidden">
-              <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground">
-                O MAIS ESCOLHIDO
-              </Badge>
+              <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground">R$ 397,00</Badge>
               
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold">Plano anual</h3>
+                <h3 className="text-xl font-semibold">Ou R$ 227 à vista no Pix</h3>
                 
                 <div className="space-y-2">
                   <p className="text-lg">
