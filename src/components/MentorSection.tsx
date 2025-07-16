@@ -26,9 +26,7 @@ Era fanático por rock adorava Led Zeppelin e Pink Floyd até que um dia ficou a
 
 "...Senti a mesma sensação que sentia ouvindo os discos de Rock..." </p>
                 
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Mas quando apliquei Inteligência Artificial na minha operação, algo inacreditável aconteceu:
-                </p>
+                
                 
                 
                 
