@@ -1,18 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-
 export const PricingSection = () => {
-  const features = [
-    "Curso n8n do básico ao avançado",
-    "Mentoria ao vivo + comunidade ativa",
-    "Módulo completo de vendas e agência", 
-    "Atualizações constantes",
-    "Projetos prontos e vendáveis"
-  ];
-
-  return (
-    <section id="oferta" className="py-20 bg-background">
+  const features = ["Curso n8n do básico ao avançado", "Mentoria ao vivo + comunidade ativa", "Módulo completo de vendas e agência", "Atualizações constantes", "Projetos prontos e vendáveis"];
+  return <section id="oferta" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto space-y-16">
           <div className="text-center space-y-8">
@@ -37,9 +28,7 @@ export const PricingSection = () => {
                   </p>
                   
                   <div className="space-y-1">
-                    <div className="text-4xl md:text-5xl font-bold text-primary">
-                      12x de R$59,68
-                    </div>
+                    <div className="text-4xl md:text-5xl font-bold text-primary">12x de R$22,70</div>
                     <p className="text-lg text-muted-foreground">
                       Ou R$ 577 à vista no Pix
                     </p>
@@ -48,14 +37,12 @@ export const PricingSection = () => {
               </div>
               
               <div className="space-y-4">
-                {features.map((feature, index) => (
-                  <div key={index} className="flex items-center space-x-3">
+                {features.map((feature, index) => <div key={index} className="flex items-center space-x-3">
                     <div className="w-5 h-5 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
                       <span className="text-primary-foreground text-xs font-bold">✓</span>
                     </div>
                     <p className="font-medium">{feature}</p>
-                  </div>
-                ))}
+                  </div>)}
               </div>
               
               <Button variant="hero" size="xl" className="w-full">
@@ -64,14 +51,9 @@ export const PricingSection = () => {
               
               <div className="flex items-center justify-center space-x-4 pt-4">
                 <div className="flex -space-x-2">
-                  {[...Array(8)].map((_, i) => (
-                    <div 
-                      key={i} 
-                      className="w-8 h-8 rounded-full bg-gradient-primary border-2 border-background flex items-center justify-center text-primary-foreground font-bold text-xs"
-                    >
+                  {[...Array(8)].map((_, i) => <div key={i} className="w-8 h-8 rounded-full bg-gradient-primary border-2 border-background flex items-center justify-center text-primary-foreground font-bold text-xs">
                       {String.fromCharCode(65 + i)}
-                    </div>
-                  ))}
+                    </div>)}
                 </div>
                 <div className="text-left text-sm">
                   <p className="font-bold">
@@ -99,14 +81,12 @@ export const PricingSection = () => {
               </div>
               
               <div className="space-y-4">
-                {features.map((feature, index) => (
-                  <div key={index} className="flex items-center space-x-3">
+                {features.map((feature, index) => <div key={index} className="flex items-center space-x-3">
                     <div className="w-5 h-5 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
                       <span className="text-primary-foreground text-xs font-bold">✓</span>
                     </div>
                     <p className="font-medium">{feature}</p>
-                  </div>
-                ))}
+                  </div>)}
               </div>
               
               <Button variant="outline" size="xl" className="w-full">
@@ -146,6 +126,5 @@ export const PricingSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
