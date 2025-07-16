@@ -2,23 +2,21 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 export const PricingSection = () => {
-  const features = ["MÉTODO EXCLUSIVO CRIADO POR SUZANO(Técnica Invertida)", "MÓDULO 0 COM EXERCÍCIOS", "ELETRO MÓDULO", "27 RITMOS EXCLUSIVOS", "BÔNUS – APOSTILA COM 132 RITMOS E VARIAÇÕES DO SUZANO EXPRESS (Isso vai Expandir seu Conhecimento e o seu Entendimento sobre a Arte desse Gênio do Pandeiro)"];
+  const features = ["Curso n8n do básico ao avançado", "Mentoria ao vivo + comunidade ativa", "Módulo completo de vendas e agência", "Atualizações constantes", "Projetos prontos e vendáveis"];
   return <section id="oferta" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto space-y-16">
-          <div className="text-center space-y-8">
-            <h2 className="text-3xl md:text-5xl font-bold leading-tight">
-              Enquanto uns brincam com IA, você tem a oportunidade de dominar a habilidade mais valiosa dos próximos 10 anos.
-            </h2>
-          </div>
+          
           
           <div className="grid lg:grid-cols-2 gap-8">
             {/* Plano Anual */}
             <Card className="p-8 space-y-8 border-primary bg-gradient-primary/5 relative overflow-hidden">
-              <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground">R$ 397,00</Badge>
+              <Badge className="absolute top-4 right-4 bg-primary text-primary-foreground">
+                O MAIS ESCOLHIDO
+              </Badge>
               
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold">Ou R$ 227 à vista no Pix</h3>
+                <h3 className="text-xl font-semibold">Plano anual</h3>
                 
                 <div className="space-y-2">
                   <p className="text-lg">
@@ -26,7 +24,9 @@ export const PricingSection = () => {
                   </p>
                   
                   <div className="space-y-1">
-                    <div className="text-4xl md:text-5xl font-bold text-primary">12x de R$22,70</div>
+                    <div className="text-4xl md:text-5xl font-bold text-primary">
+                      12x de R$59,68
+                    </div>
                     <p className="text-lg text-muted-foreground">
                       Ou R$ 577 à vista no Pix
                     </p>
