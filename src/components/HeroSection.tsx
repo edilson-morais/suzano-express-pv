@@ -16,9 +16,7 @@ export const HeroSection = () => {
               <span className="text-primary">suzano express</span>
               
             </h1>
-            <p className="text-lg text-muted-foreground font-medium">
-              AgentesIA
-            </p>
+            
           </div>
           
           <div className="space-y-6">
