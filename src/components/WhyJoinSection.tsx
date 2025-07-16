@@ -20,7 +20,16 @@ export const WhyJoinSection = () => {
     number: "06",
     text: "Precisa de uma comunidade ativa, suporte real e networking que gere oportunidades."
   }];
-  const targetAudience = ["Está começando do zero e quer entrar no mercado de IA aplicada", "Já trabalha com marketing digital, vendas, programação, ou tráfego pago e quer se atualizar", "É empreendedor e quer economizar tempo, escalar processos e gerar lucro", "Quer abrir uma agência de IA ou prestar serviços com alto valor percebido", "Quer aprender na prática, sem enrolação ou termos técnicos confusos"];
+  const targetAudience = [
+    "Está começando do zero e quer entrar no mercado de IA aplicada", 
+    "Já trabalha com marketing digital, vendas, programação, ou tráfego pago e quer se atualizar", 
+    "É empreendedor e quer economizar tempo, escalar processos e gerar lucro", 
+    "Quer abrir uma agência de IA ou prestar serviços com alto valor percebido", 
+    "Quer aprender na prática, sem enrolação ou termos técnicos confusos",
+    "É músico profissional ou amador, que já toca Percussão ou Pandeiro, porém ainda se sente um pouco limitado na parte técnica ou dos grooves",
+    "Quer aumentar — e muito — o seu repertório de grooves, ou quer aprender pandeiro para tocar com os amigos ou na igreja",
+    "É iniciante mas se compromete a estudar e quer aprender o método adequado desde o início"
+  ];
   return <section className="py-20 bg-card">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto space-y-16">
