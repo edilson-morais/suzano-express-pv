@@ -50,15 +50,7 @@ Era fanático por rock adorava Led Zeppelin e Pink Floyd até que um dia ficou a
             
             <div className="relative">
               <div className="relative overflow-hidden rounded-2xl">
-                <img src={mentorPhoto} alt="Kelvin Vieira" className="w-full h-auto object-cover" />
-                
-              </div>
-              
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary rounded-full flex items-center justify-center">
-                <div className="text-primary-foreground text-center">
-                  <div className="text-sm font-bold">AI</div>
-                  <div className="text-xs">Expert</div>
-                </div>
+                <img src="/lovable-uploads/401e138a-634f-4398-8857-3a180704ff50.png" alt="Marcos Suzano" className="w-full h-auto object-cover" />
               </div>
             </div>
           </div>
