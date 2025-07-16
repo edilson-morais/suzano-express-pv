@@ -27,9 +27,7 @@ export const BonusSection = () => {
     name: "Bônus 3",
     title: "Mentorias Exclusivas"
   }];
-  
-  return (
-    <section className="py-20 bg-background">
+  return <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Bônus Exclusivos</h2>
@@ -39,27 +37,13 @@ export const BonusSection = () => {
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          {modules.map((module, index) => (
-            <Card key={index} className="p-6 text-center">
+          {modules.map((module, index) => <Card key={index} className="p-6 text-center">
               <h3 className="text-lg font-semibold mb-2">{module.name}</h3>
               <p className="text-muted-foreground">{module.title}</p>
-            </Card>
-          ))}
+            </Card>)}
         </div>
         
-        <div className="max-w-3xl mx-auto">
-          <h3 className="text-2xl font-bold text-center mb-8">O que você ganha:</h3>
-          <div className="space-y-4">
-            {bonuses.map((bonus, index) => (
-              <div key={index} className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white text-sm">✓</span>
-                </div>
-                <p className="text-muted-foreground">{bonus}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+        
         
         <div className="text-center mt-12">
           <Button size="lg" asChild>
@@ -69,6 +53,5 @@ export const BonusSection = () => {
           </Button>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
