@@ -45,7 +45,7 @@ export const Footer = () => {
             </p>
             
             <div className="text-sm text-muted-foreground">
-              Desenvolvido por <span className="font-bold text-primary">NexPages</span>
+              Desenvolvido por <span className="font-bold text-primary">edilson morais</span>
             </div>
           </div>
         </div>
