@@ -10,14 +10,7 @@ export const MentorSection = () => {
               <div className="space-y-4">
                 <p className="text-xl font-medium text-primary italic">"Eu não sabia que tocava "invertido". Acabei descobrindo um jeito inovador de tocar pandeiro."</p>
                 
-                <div className="flex items-start gap-4">
-                  <img 
-                    src="/lovable-uploads/fd8555e0-2d80-45f1-b140-7691121826df.png" 
-                    alt="Marcos Suzano tocando pandeiro" 
-                    className="w-20 h-20 rounded-full object-cover flex-shrink-0"
-                  />
-                  <h2 className="text-3xl md:text-4xl font-bold">Meu nome é Marcos Suzano, criador da "técnica invertida" e do método Suzano express.</h2>
-                </div>
+                <h2 className="text-3xl md:text-4xl font-bold">Meu nome é Marcos Suzano, criador da "técnica invertida" e do método Suzano express.</h2>
               </div>
               
               <div className="space-y-6">
