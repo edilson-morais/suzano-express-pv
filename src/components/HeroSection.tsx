@@ -33,7 +33,7 @@ export const HeroSection = () => {
           
           <div className="pt-8">
             <Button variant="hero" size="xl" className="mb-8">
-              QUERO COMEÇAR AGORA
+              Quero Me Tornar Um Cr[IA]dor da Nova Era
             </Button>
           </div>
           
@@ -45,7 +45,7 @@ export const HeroSection = () => {
             </div>
             <div className="text-left">
               <p className="text-lg font-bold">
-                + <span className="text-primary">1.2K</span> alunos <span className="font-bold">dominando a IA</span>
+                + <span className="text-primary">dominando o PANDEIRO</span> alunos <span className="font-bold">dominando a IA</span>
               </p>
               <p className="text-lg">
                 e enriquecendo <span className="font-bold">mais ainda!</span>
