@@ -1,0 +1,71 @@
+import { Button } from "@/components/ui/button";
+import heroBackground from "@/assets/hero-bg.jpg";
+
+export const HeroSection = () => {
+  return (
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-bg">
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+        style={{ backgroundImage: `url(${heroBackground})` }}
+      />
+      <div className="absolute inset-0 bg-gradient-hero" />
+      
+      <div className="relative z-10 container mx-auto px-4 text-center">
+        <div className="max-w-4xl mx-auto space-y-8">
+          <div className="space-y-4">
+            <p className="text-sm uppercase tracking-wide text-primary font-medium">
+              FORMAÇÃO
+            </p>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
+              <span className="text-foreground">Cr</span>
+              <span className="text-primary">[IA]</span>
+              <span className="text-foreground">dor</span>
+            </h1>
+            <p className="text-lg text-muted-foreground font-medium">
+              AgentesIA
+            </p>
+          </div>
+          
+          <div className="space-y-6">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight">
+              <span className="text-foreground">Domine a criação de </span>
+              <span className="text-primary">Agentes de IA</span>
+              <span className="text-foreground"> e monte sua própria agência lucrativa — mesmo começando do zero.</span>
+            </h2>
+            
+            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              Aprenda o passo a passo prático para criar automações com IA, conquistar clientes de alto ticket e aplicar tudo com ferramentas acessíveis como n8n — sem precisar programar, mesmo que você nunca tenha tocado em código.
+            </p>
+          </div>
+          
+          <div className="pt-8">
+            <Button variant="hero" size="xl" className="mb-8">
+              Quero Me Tornar Um Cr[IA]dor da Nova Era
+            </Button>
+          </div>
+          
+          <div className="flex items-center justify-center space-x-4 pt-8">
+            <div className="flex -space-x-2">
+              {[...Array(8)].map((_, i) => (
+                <div 
+                  key={i} 
+                  className="w-12 h-12 rounded-full bg-gradient-primary border-2 border-background flex items-center justify-center text-primary-foreground font-bold"
+                >
+                  {String.fromCharCode(65 + i)}
+                </div>
+              ))}
+            </div>
+            <div className="text-left">
+              <p className="text-lg font-bold">
+                + <span className="text-primary">1.2K</span> alunos <span className="font-bold">dominando a IA</span>
+              </p>
+              <p className="text-lg">
+                e enriquecendo <span className="font-bold">mais ainda!</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
