@@ -1,16 +1,8 @@
 import { Card } from "@/components/ui/card";
 import mentorPhoto from "@/assets/mentor-photo.jpg";
-
 export const MentorSection = () => {
-  const achievements = [
-    "Economizei 85% do meu tempo operacional",
-    "Eliminei a necessidade de contratar uma equipe inteira de SDRs",
-    "Aumentei o faturamento em 25% no primeiro mês",
-    "E criei um novo serviço que virou uma nova fonte de lucro"
-  ];
-
-  return (
-    <section className="py-20 bg-card">
+  const achievements = ["Economizei 85% do meu tempo operacional", "Eliminei a necessidade de contratar uma equipe inteira de SDRs", "Aumentei o faturamento em 25% no primeiro mês", "E criei um novo serviço que virou uma nova fonte de lucro"];
+  return <section className="py-20 bg-card">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -35,12 +27,10 @@ export const MentorSection = () => {
                 </p>
                 
                 <div className="space-y-4">
-                  {achievements.map((achievement, index) => (
-                    <div key={index} className="flex items-start space-x-3">
+                  {achievements.map((achievement, index) => <div key={index} className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0" />
                       <p className="text-lg font-medium">{achievement}</p>
-                    </div>
-                  ))}
+                    </div>)}
                 </div>
                 
                 <div className="space-y-4 pt-4">
@@ -58,12 +48,8 @@ export const MentorSection = () => {
             
             <div className="relative">
               <div className="relative overflow-hidden rounded-2xl">
-                <img 
-                  src={mentorPhoto} 
-                  alt="Kelvin Vieira" 
-                  className="w-full h-auto object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-primary opacity-10" />
+                <img src={mentorPhoto} alt="Kelvin Vieira" className="w-full h-auto object-cover" />
+                
               </div>
               
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary rounded-full flex items-center justify-center">
@@ -76,6 +62,5 @@ export const MentorSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
