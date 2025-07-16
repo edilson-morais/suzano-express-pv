@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 export const PricingSection = () => {
-  const features = ["Curso n8n do básico ao avançado", "Mentoria ao vivo + comunidade ativa", "Módulo completo de vendas e agência", "Atualizações constantes", "Projetos prontos e vendáveis"];
+  const features = ["MÉTODO EXCLUSIVO CRIADO POR SUZANO(Técnica Invertida)", "MÓDULO 0 COM EXERCÍCIOS", "ELETRO MÓDULO", "27 RITMOS EXCLUSIVOS", "BÔNUS – APOSTILA COM 132 RITMOS E VARIAÇÕES DO SUZANO EXPRESS (Isso vai Expandir seu Conhecimento e o seu Entendimento sobre a Arte desse Gênio do Pandeiro)"];
   return <section id="oferta" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto space-y-16">
