@@ -35,21 +35,7 @@ export const HeroSection = () => {
             </Button>
           </div>
           
-          <div className="flex items-center justify-center space-x-4 pt-8">
-            <div className="flex -space-x-2">
-              {[...Array(8)].map((_, i) => <div key={i} className="w-12 h-12 rounded-full bg-gradient-primary border-2 border-background flex items-center justify-center text-primary-foreground font-bold">
-                  {String.fromCharCode(65 + i)}
-                </div>)}
-            </div>
-            <div className="text-left">
-              <p className="text-lg font-bold">
-                + <span className="text-primary">dominando o PANDEIRO</span> alunos <span className="font-bold">dominando a IA</span>
-              </p>
-              <p className="text-lg">
-                e enriquecendo <span className="font-bold">e tocando cada vez mais ainda!</span>
-              </p>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>;
