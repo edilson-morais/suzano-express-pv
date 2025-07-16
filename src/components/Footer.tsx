@@ -1,8 +1,6 @@
 import { Instagram, Youtube, Linkedin, Mail } from "lucide-react";
-
 export const Footer = () => {
-  return (
-    <footer className="py-16 bg-card border-t border-primary/20">
+  return <footer className="py-16 bg-card border-t border-primary/20">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Disclaimer */}
@@ -17,9 +15,9 @@ export const Footer = () => {
             <div className="text-center md:text-left">
               <div className="space-y-2">
                 <h3 className="text-2xl font-bold">
-                  <span className="text-foreground">Cr</span>
-                  <span className="text-primary">[IA]</span>
-                  <span className="text-foreground">dor</span>
+                  
+                  <span className="text-primary">Suzano Express</span>
+                  
                 </h3>
                 <p className="text-sm text-muted-foreground">AgentesIA</p>
               </div>
@@ -27,44 +25,16 @@ export const Footer = () => {
             
             {/* Social Links */}
             <div className="text-center">
-              <h4 className="font-semibold mb-4">Social:</h4>
-              <div className="flex justify-center space-x-4">
-                <a 
-                  href="https://www.instagram.com/kelvinvieira.ai" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center text-primary-foreground hover:shadow-glow-cyan transition-smooth"
-                >
-                  <Instagram size={18} />
-                </a>
-                <a 
-                  href="https://www.youtube.com/@kelvinviieira" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center text-primary-foreground hover:shadow-glow-cyan transition-smooth"
-                >
-                  <Youtube size={18} />
-                </a>
-                <a 
-                  href="https://www.linkedin.com/in/kelvinvieira/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center text-primary-foreground hover:shadow-glow-cyan transition-smooth"
-                >
-                  <Linkedin size={18} />
-                </a>
-              </div>
+              <h4 className="font-semibold mb-4"></h4>
+              
             </div>
             
             {/* Contact */}
             <div className="text-center md:text-right">
               <h4 className="font-semibold mb-4">Contato:</h4>
-              <a 
-                href="mailto:suporte@criadoresdanovaera.com.br"
-                className="flex items-center justify-center md:justify-end space-x-2 text-muted-foreground hover:text-primary transition-smooth"
-              >
+              <a href="mailto:suporte@criadoresdanovaera.com.br" className="flex items-center justify-center md:justify-end space-x-2 text-muted-foreground hover:text-primary transition-smooth">
                 <Mail size={16} />
-                <span>suporte@criadoresdanovaera.com.br</span>
+                <span>edilsomdil@gmail.com</span>
               </a>
             </div>
           </div>
@@ -80,6 +50,5 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
