@@ -14,7 +14,17 @@ export const MentorSection = () => {
               </div>
               
               <div className="space-y-6">
-                <p className="text-lg text-muted-foreground leading-relaxed">Ele inventou uma nova forma de tocar e de ensinar, tornando o aprendizado mais acessível e musicalmente expressivo. Sua habilidade de extrair diferentes timbres e sua impressionante coordenação são marcas registradas.</p>
+                <p className="text-lg text-muted-foreground leading-relaxed">Ele inventou uma nova forma de tocar e de ensinar, tornando o aprendizado mais acessível e musicalmente expressivo. Sua habilidade de extrair diferentes timbres e sua impressionante coordenação são marcas registradas.
+
+
+
+MAIS de 30 PAÍSES já puderam conferir o SOM PODEROSO de seu PANDEIRO MARCOS SUZANO começou a batucar com 13 anos de idade nas ruas de copacabana Rio de Janeiro.
+
+Era fanático por rock adorava Led Zeppelin e Pink Floyd até que um dia ficou atrás da bateria de um Bloco de carnaval 
+
+
+
+"...Senti a mesma sensação que sentia ouvindo os discos de Rock..." </p>
                 
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Mas quando apliquei Inteligência Artificial na minha operação, algo inacreditável aconteceu:
