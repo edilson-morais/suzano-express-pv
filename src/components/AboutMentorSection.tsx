@@ -9,7 +9,7 @@ export const AboutMentorSection = () => {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <img 
-                  src={mentorPhoto} 
+                  src="/lovable-uploads/885c9407-5578-4769-b987-e56746077b6b.png" 
                   alt="Mentor Suzano" 
                   className="w-full h-auto rounded-lg"
                 />
