@@ -8,19 +8,13 @@ export const MentorSection = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <p className="text-xl font-medium text-primary italic">
-                  "Eu só queria ganhar tempo. Acabei descobrindo um novo negócio."
-                </p>
+                <p className="text-xl font-medium text-primary italic">"Eu não sabia que tocava "invertido". Acabei descobrindo um jeito inovador de tocar pandeiro."</p>
                 
-                <h2 className="text-3xl md:text-4xl font-bold">
-                  Meu nome é Kelvin Vieira, fundador da Strong Sales IA & Duni Digital.
-                </h2>
+                <h2 className="text-3xl md:text-4xl font-bold">Meu nome é Marcos Suzano, criador da "técnica invertida" e do método Suzano express.</h2>
               </div>
               
               <div className="space-y-6">
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Aos 29 anos, depois de mais de uma década empreendendo, achei que já tinha visto de tudo.
-                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed">Ele inventou uma nova forma de tocar e de ensinar, tornando o aprendizado mais acessível e musicalmente expressivo. Sua habilidade de extrair diferentes timbres e sua impressionante coordenação são marcas registradas.</p>
                 
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Mas quando apliquei Inteligência Artificial na minha operação, algo inacreditável aconteceu:
