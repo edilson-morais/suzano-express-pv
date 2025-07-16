@@ -10,7 +10,7 @@ export const LearningSection = () => {
               O Que Você Vai Aprender na <span className="font-bold">curso suzano express</span>
             </h3>
             
-            <h2 className="text-3xl md:text-5xl font-bold leading-tight">Você não vai apenas "aprender tocar pandeiro". Vai criar suas própria levadas, de verdade. Do absoluto zero ao avançado, você vai:</h2>
+            <h2 className="text-3xl md:text-5xl font-bold leading-tight">Você não vai apenas "aprender tocar pandeiro". Vai criar suas próprias levadas, de verdade. Do absoluto zero ao avançado, você vai:</h2>
           </div>
           
           <div className="grid gap-6 md:gap-8">
