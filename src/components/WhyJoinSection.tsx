@@ -21,10 +21,6 @@ export const WhyJoinSection = () => {
     text: "Precisa de uma comunidade ativa, suporte real e networking que gere oportunidades."
   }];
   const targetAudience = [
-    "Está começando do zero e quer entrar no mercado de IA aplicada", 
-    "Já trabalha com marketing digital, vendas, programação, ou tráfego pago e quer se atualizar", 
-    "É empreendedor e quer economizar tempo, escalar processos e gerar lucro", 
-    "Quer abrir uma agência de IA ou prestar serviços com alto valor percebido", 
     "Quer aprender na prática, sem enrolação ou termos técnicos confusos",
     "É músico profissional ou amador, que já toca Percussão ou Pandeiro, porém ainda se sente um pouco limitado na parte técnica ou dos grooves",
     "Quer aumentar — e muito — o seu repertório de grooves, ou quer aprender pandeiro para tocar com os amigos ou na igreja",
@@ -50,7 +46,7 @@ export const WhyJoinSection = () => {
           
           <div className="space-y-12">
             <h3 className="text-3xl md:text-4xl font-bold text-center">
-              Essa formação é para você que:
+              O suzano express é para você que:
             </h3>
             
             <div className="space-y-6">
