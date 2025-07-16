@@ -20,10 +20,7 @@ export const LearningSection = () => {
           </div>
           
           <div className="space-y-6">
-            <p className="text-xl font-semibold">
-              Tudo isso <span className="font-bold">sem enrolação</span>. É IA aplicada na prática — 
-              <span className="font-bold"> com método e resultados.</span>
-            </p>
+            
             
             <Button variant="cta" size="xl">
               Quero Me Tornar Um Cr[IA]dor da Nova Era
