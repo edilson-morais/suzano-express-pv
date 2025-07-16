@@ -33,9 +33,7 @@ export const MentorSection = () => {
                     para que você possa fazer o mesmo — sem precisar errar sozinho.
                   </p>
                   
-                  <p className="text-xl font-bold text-primary">
-                    A pergunta é: você está pronto para entrar na nova era?
-                  </p>
+                  <p className="text-xl font-bold text-primary">A pergunta é: você está pronto para entrar na nova era no seu som de pandeiro?</p>
                 </div>
               </div>
             </div>
