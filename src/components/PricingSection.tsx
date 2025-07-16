@@ -27,9 +27,7 @@ export const PricingSection = () => {
                     <div className="text-4xl md:text-5xl font-bold text-primary">
                       12x de R$59,68
                     </div>
-                    <p className="text-lg text-muted-foreground">
-                      Ou R$ 577 à vista no Pix
-                    </p>
+                    <p className="text-lg text-muted-foreground">Ou R$ 227 à vista no Pix</p>
                   </div>
                 </div>
               </div>
