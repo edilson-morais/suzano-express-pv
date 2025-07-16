@@ -19,7 +19,7 @@ export const Footer = () => {
                   <span className="text-primary">Curso de Pandeiro Suzano Express</span>
                   
                 </h3>
-                <p className="text-sm text-muted-foreground">AgentesIA</p>
+                
               </div>
             </div>
             
