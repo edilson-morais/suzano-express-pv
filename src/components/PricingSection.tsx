@@ -55,8 +55,8 @@ export const PricingSection = () => {
                 </div>
                 <div className="text-left text-sm">
                   <p className="font-bold">
-                    + <span className="text-primary">1.2K</span> alunos <span className="font-bold">dominando a IA</span>
-                    <span className="block">e enriquecendo <span className="font-bold">mais ainda!</span></span>
+                    + <span className="text-primary">de 2.000</span> alunos <span className="font-bold">dominando o PANDEIRO</span>
+                    <span className="block">e <span className="font-bold">tocando cada vez mais ainda!</span></span>
                   </p>
                 </div>
               </div>
