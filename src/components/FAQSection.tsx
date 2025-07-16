@@ -21,7 +21,7 @@ export const FAQSection = () => {
     },
     {
       question: "E se eu não gostar do conteúdo?",
-      answer: "Oferecemos garantia incondicional de 7 dias. Se você não estiver satisfeito por qualquer motivo, basta nos avisar e devolveremos 100% do seu investimento, sem perguntas ou burocracia."
+      answer: "Oferecemos garantia incondicional de 15 dias. Se você não estiver satisfeito por qualquer motivo, basta nos avisar e devolveremos 100% do seu investimento, sem perguntas ou burocracia."
     },
     {
       question: "Que tipo de pessoa vai se beneficiar dessa comunidade?",

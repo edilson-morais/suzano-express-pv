@@ -118,20 +118,31 @@ export const PricingSection = () => {
           <div className="text-center space-y-8">
             <div className="flex items-center justify-center space-x-4">
               <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">7D</span>
+                <span className="text-primary-foreground font-bold text-lg">15D</span>
               </div>
               <div className="text-left">
-                <h3 className="text-2xl font-bold">Garantia incondicional de 7 dias</h3>
+                <h3 className="text-2xl font-bold">Garantia incondicional de 15 dias</h3>
               </div>
             </div>
             
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Participe do treinamento, aplique o método e se você sentir que não é para você, basta falar com nossa equipe e devolveremos 100% do valor do ingresso.
-            </p>
-            
-            <p className="text-lg font-semibold">
-              Sem perguntas. Sem complicação. O risco continua sendo todo nosso.
-            </p>
+            <div className="space-y-6 max-w-4xl mx-auto">
+              <p className="text-xl font-semibold text-center">
+                Você está protegido pela nossa<br />
+                <span className="text-primary">★ Garantia Incondicional de Satisfação ★</span>
+              </p>
+              
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Ao se inscrever hoje, seu risco é zero, pois você conta com a garantia total e incondicional de satisfação do Suzano Express.
+              </p>
+              
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Se você não ficar satisfeito com o método, basta nos enviar um e-mail dentro de 15 dias e devolveremos 100% do seu dinheiro — sem perguntas.
+              </p>
+              
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Acreditamos que não vamos chegar a esse ponto, mas, se você realmente estiver em dúvida se isso vai funcionar para você ou não, fique tranquilo: você tem garantia.
+              </p>
+            </div>
           </div>
         </div>
       </div>
