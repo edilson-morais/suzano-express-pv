@@ -3,22 +3,22 @@ import { Button } from "@/components/ui/button";
 export const WhyJoinSection = () => {
   const reasons = [{
     number: "01",
-    text: "Você já tentou aprender sobre IA, mas só encontrou teoria vaga e vídeos soltos no YouTube."
+    text: "Você já tentou aprender pandeiro, mas só encontrou teoria vaga e vídeos soltos no YouTube."
   }, {
     number: "02",
-    text: "Fica perdido entre APIs, ferramentas, códigos e não sabe nem por onde começar."
+    text: "Fica perdido entre técnicas, solos, músicos que só querem mostrar que sabem tocar rápido e você não sabe nem por onde começar."
   }, {
     number: "03",
-    text: "Sonha em ganhar dinheiro com IA, mas sente que está atrasado nessa corrida."
+    text: "Sonha em tocar bem pandeiro, mas sente que está atrasado nessa corrida."
   }, {
     number: "04",
-    text: "Quer vender soluções de IA, mas não sabe estruturar uma oferta real."
+    text: "Quer chegar na roda de samba, mas não sabe o que vai fazer na hora do play."
   }, {
     number: "05",
     text: "Está cansado de cursos genéricos e quer um passo a passo validado por quem aplica de verdade."
   }, {
     number: "06",
-    text: "Precisa de uma comunidade ativa, suporte real e networking que gere oportunidades."
+    text: "Precisa de uma comunidade ativa, suporte real e um mestres com reconhecimento mundial."
   }];
   const targetAudience = [
     "Quer aprender na prática, sem enrolação ou termos técnicos confusos",
