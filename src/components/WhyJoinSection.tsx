@@ -56,8 +56,8 @@ export const WhyJoinSection = () => {
             </div>
             
             <div className="text-center space-y-8">
-              <Button variant="cta" size="xl">
-                QUERO COMEÇAR AGORA
+              <Button variant="cta" size="xl" asChild>
+                <a href="https://sun.eduzz.com/50027?utm_source=suzano+express&utm_id=pv">QUERO COMEÇAR AGORA</a>
               </Button>
               
               <div className="flex items-center justify-center space-x-4">

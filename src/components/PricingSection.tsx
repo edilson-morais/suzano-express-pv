@@ -43,8 +43,8 @@ export const PricingSection = () => {
                   </div>)}
               </div>
               
-              <Button variant="hero" size="xl" className="w-full">
-                QUERO COMEÇAR AGORA
+              <Button variant="hero" size="xl" className="w-full" asChild>
+                <a href="https://sun.eduzz.com/50027?utm_source=suzano+express&utm_id=pv">QUERO COMEÇAR AGORA</a>
               </Button>
               
               <div className="flex items-center justify-center space-x-4 pt-4">
@@ -87,8 +87,8 @@ export const PricingSection = () => {
                   </div>)}
               </div>
               
-              <Button variant="outline" size="xl" className="w-full">
-                QUERO COMEÇAR AGORA
+              <Button variant="outline" size="xl" className="w-full" asChild>
+                <a href="https://sun.eduzz.com/50027?utm_source=suzano+express&utm_id=pv">QUERO COMEÇAR AGORA</a>
               </Button>
             </Card>
           </div>

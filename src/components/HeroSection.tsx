@@ -30,8 +30,8 @@ export const HeroSection = () => {
           </div>
           
           <div className="pt-8">
-            <Button variant="hero" size="xl" className="mb-8">
-              Quero Me Tornar Um Cr[IA]dor da Nova Era
+            <Button variant="hero" size="xl" className="mb-8" asChild>
+              <a href="https://sun.eduzz.com/50027?utm_source=suzano+express&utm_id=pv">QUERO COMEÇAR AGORA</a>
             </Button>
           </div>
           

@@ -22,8 +22,8 @@ export const LearningSection = () => {
           <div className="space-y-6">
             
             
-            <Button variant="cta" size="xl">
-              Quero Me Tornar Um Cr[IA]dor da Nova Era
+            <Button variant="cta" size="xl" asChild>
+              <a href="https://sun.eduzz.com/50027?utm_source=suzano+express&utm_id=pv">QUERO COMEÇAR AGORA</a>
             </Button>
           </div>
         </div>

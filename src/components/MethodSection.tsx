@@ -51,8 +51,8 @@ export const MethodSection = () => {
                   <p className="text-lg leading-relaxed">{step.description}</p>
                 </div>
                 
-                <Button variant="outline" className="w-full">
-                  QUERO COMEÇAR AGORA
+                <Button variant="outline" className="w-full" asChild>
+                  <a href="https://sun.eduzz.com/50027?utm_source=suzano+express&utm_id=pv">QUERO COMEÇAR AGORA</a>
                 </Button>
               </Card>
             ))}
