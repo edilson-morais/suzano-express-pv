@@ -39,13 +39,7 @@ export const TestimonialsSection = () => {
               </Card>)}
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
-            {[...Array(12)].map((_, index) => (
-              <div key={index} className="w-12 h-12 rounded-full bg-gradient-primary border-2 border-background flex items-center justify-center text-primary-foreground font-bold">
-                {String.fromCharCode(65 + index)}
-              </div>
-            ))}
-          </div>
+          
         </div>
       </div>
     </section>;
