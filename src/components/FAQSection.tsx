@@ -8,36 +8,32 @@ import {
 export const FAQSection = () => {
   const faqs = [
     {
-      question: "Preciso ter experiência em programação para desenvolver agentes de IA?",
-      answer: "Não! O método foi desenvolvido justamente para quem está começando do zero. Tudo é ensinado passo a passo, desde a configuração inicial até implementações avançadas. Muitos dos nossos alunos mais bem-sucedidos nunca tinham programado antes."
+      question: "PRA QUEM É O CURSO SUZANO EXPRESS?",
+      answer: "Para você que é músico profissional ou amador, que já toca Percussão ou Pandeiro, porém ainda se sente um pouco limitado na parte técnica ou dos grooves. Pra você que quer aumentar — e muito — o seu repertório de grooves, ou quer aprender pandeiro para tocar com os amigos ou na igreja."
     },
     {
-      question: "Como a comunidade vai me ajudar a gerar renda com automação?",
-      answer: "Você receberá todo o conhecimento prático para criar automações que empresas estão dispostas a pagar. Desde o treinamento técnico até templates prontos e estratégias de monetização. Diferente de outros cursos que só ensinam teoria, aqui você implementa projetos reais que geram resultados financeiros imediatos."
+      question: "RECEBEREI ALGUM MATERIAL PELOS CORREIOS?",
+      answer: "NÃO! Todo o material do curso é disponibilizado através de um login e senha, para uma área de membros exclusiva dos alunos. O acesso ficará disponível por 2 anos, sem restrições. Estude onde e quando quiser."
     },
     {
-      question: "Quanto tempo tenho de acesso?",
-      answer: "Você terá acesso ao ecossistema completo por 12 meses. Isso inclui todas as atualizações, novos templates, sessões ao vivo e suporte na comunidade durante este período."
+      question: "É NECESSÁRIO SABER LER PARTITURAS PARA ENTENDER AS AULAS?",
+      answer: "NÃO é necessário saber ler partitura para aprender a tocar pandeiro com o Método Suzano Express."
     },
     {
-      question: "E se eu não gostar do conteúdo?",
-      answer: "Oferecemos garantia incondicional de 15 dias. Se você não estiver satisfeito por qualquer motivo, basta nos avisar e devolveremos 100% do seu investimento, sem perguntas ou burocracia."
+      question: "EU NÃO SEI TOCAR NADA AINDA. ESTE CURSO É PARA INICIANTES?",
+      answer: "Se você é iniciante, talvez precise aprender as \"coisas\" mais simples primeiro, por exemplo no YouTube. Mas se você se compromete a estudar, este curso é o adequado para você."
     },
     {
-      question: "Que tipo de pessoa vai se beneficiar dessa comunidade?",
-      answer: "Esta comunidade é ideal para quem busca uma nova fonte de renda, quer seja para complementar o salário atual ou para construir um negócio próprio. É perfeita para profissionais em transição de carreira, estudantes, empreendedores iniciantes ou qualquer pessoa que queira aproveitar a crescente demanda por automação com IA."
+      question: "EXISTE ALGUM TIPO DE SUPORTE, CASO EU TENHA DÚVIDAS DURANTE O CURSO?",
+      answer: "SIM, CLARO! Caso você tenha alguma dúvida relacionada ao curso, poderá nos contatar pelo nosso e-mail de suporte, que será informado após a compra. Será um prazer te ajudar!"
     },
     {
-      question: "Preciso de equipamentos caros ou servidores para criar automações?",
-      answer: "Não! Você pode começar com o computador que já tem. Para a maioria das implementações, um notebook básico é suficiente. Ensinamos também como usar serviços gratuitos ou de baixo custo para hospedar suas automações, com investimento inicial mínimo."
+      question: "POSSO PAGAR O SUZANO EXPRESS MENSALMENTE?",
+      answer: "O Suzano Express NÃO É um serviço de assinatura ou mensalidade. É um programa fechado. O valor do curso pode ser pago à vista ou parcelado no cartão de crédito, à critério do aluno."
     },
     {
-      question: "O que exatamente vou aprender na comunidade?",
-      answer: "Você aprenderá a criar sistemas de automação completos usando n8n, Make, integração com WhatsApp via Evolution API, desenvolvimento de agentes de IA para atendimento e vendas, estratégias de monetização e muito mais. Todo o conteúdo é prático e focado em implementações que geram resultados financeiros reais."
-    },
-    {
-      question: "E se eu tiver dúvidas durante a implementação?",
-      answer: "Você terá múltiplos canais de suporte: mentoria em grupo semanal com Kelvin, comunidade ativa no Discord para dúvidas rápidas, e sessões especiais com especialistas convidados. Nosso objetivo é garantir que nenhuma dúvida fique sem resposta para que você possa implementar com confiança."
+      question: "EU POSSO BAIXAR AS VÍDEO AULAS?",
+      answer: "NÃO. Todo o material é acessado somente online. Ao se matricular, você receberá um login e senha para acessar a plataforma do curso durante 2 anos. Tudo fica disponível 24h por dia, todos os dias da semana. As aulas podem ser assistidas quantas vezes você quiser."
     }
   ];
 
