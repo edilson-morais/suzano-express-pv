@@ -30,12 +30,7 @@ Era fanático por rock adorava Led Zeppelin e Pink Floyd até que um dia ficou a
                   Mas quando apliquei Inteligência Artificial na minha operação, algo inacreditável aconteceu:
                 </p>
                 
-                <div className="space-y-4">
-                  {achievements.map((achievement, index) => <div key={index} className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0" />
-                      <p className="text-lg font-medium">{achievement}</p>
-                    </div>)}
-                </div>
+                
                 
                 <div className="space-y-4 pt-4">
                   <p className="text-lg font-semibold">
