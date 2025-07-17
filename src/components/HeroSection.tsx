@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroBackground from "@/assets/hero-bg.jpg";
+const heroBackground = "/lovable-uploads/7b88e8cb-6fcf-4d13-8a0a-23b84ca1feb9.png";
 export const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-bg">
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style={{
