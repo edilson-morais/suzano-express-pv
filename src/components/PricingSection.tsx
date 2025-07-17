@@ -16,7 +16,7 @@ export const PricingSection = () => {
               </Badge>
               
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold">Plano anual</h3>
+                <h3 className="text-xl font-semibold">Plano PRO</h3>
                 
                 <div className="space-y-2">
                   <p className="text-lg">
