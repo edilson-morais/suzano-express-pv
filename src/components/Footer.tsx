@@ -25,7 +25,7 @@ export const Footer = () => {
                 Termos de Uso
               </a>
               <span className="text-muted-foreground">|</span>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-smooth">
+              <a href="https://politica-de-privacidade.rota50ia.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-smooth">
                 Política de Privacidade
               </a>
             </div>
