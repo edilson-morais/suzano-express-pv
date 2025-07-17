@@ -1,23 +1,13 @@
-import { Card } from "@/components/ui/card";
 export const TestimonialsSection = () => {
-  const testimonials = [{
-    name: "Fábio",
-    result: "Primeiro projeto vendido por R$ 15.000",
-    content: "Aplicou o método e conseguiu seu primeiro cliente em menos de 30 dias"
-  }, {
-    name: "Alex",
-    result: "Automatizou 90% do atendimento",
-    content: "Criou um agente de IA que revolucionou o atendimento da empresa"
-  }, {
-    name: "Elizeu",
-    result: "Nova fonte de renda mensal",
-    content: "Montou sua agência de IA e está faturando consistentemente"
-  }, {
-    name: "Roberto",
-    result: "Economizou 15h semanais",
-    content: "Automações criadas liberaram tempo para focar em estratégia"
-  }];
-  return <section className="py-20 bg-background">
+  const videoIds = [
+    "8lXgS2xZxv8",
+    "lJCwvkgSUVY", 
+    "a5Fkulj2SIY",
+    "ZnkHaKyEJ4A"
+  ];
+
+  return (
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto text-center space-y-12">
           <div className="space-y-6">
@@ -29,18 +19,21 @@ export const TestimonialsSection = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {testimonials.map((testimonial, index) => <Card key={index} className="p-6 space-y-4 hover:shadow-glow-cyan transition-smooth border-primary/20">
-                <div className="space-y-2">
-                  <h3 className="font-bold text-lg">{testimonial.name}</h3>
-                  <p className="text-primary font-semibold">{testimonial.result}</p>
-                </div>
-                <p className="text-sm text-muted-foreground">{testimonial.content}</p>
-              </Card>)}
+          <div className="grid md:grid-cols-2 gap-6">
+            {videoIds.map((videoId, index) => (
+              <div key={index} className="aspect-video rounded-lg overflow-hidden shadow-lg hover:shadow-glow-cyan transition-smooth">
+                <iframe
+                  src={`https://www.youtube.com/embed/${videoId}`}
+                  title={`Depoimento ${index + 1}`}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              </div>
+            ))}
           </div>
-          
-          
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
