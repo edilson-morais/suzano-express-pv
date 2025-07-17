@@ -18,7 +18,7 @@ export const WhyJoinSection = () => {
     text: "Está cansado de cursos genéricos e quer um passo a passo validado por quem aplica de verdade."
   }, {
     number: "06",
-    text: "Precisa de uma comunidade ativa, suporte real e um mestres com reconhecimento mundial."
+    text: "Precisa de uma comunidade ativa, suporte real e um mestre com reconhecimento mundial."
   }];
   const targetAudience = [
     "Quer aprender na prática, sem enrolação ou termos técnicos confusos",
