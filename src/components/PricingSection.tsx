@@ -59,34 +59,7 @@ export const PricingSection = () => {
             </Card>
             
             {/* Plano Mensal */}
-            <Card className="p-8 space-y-8 border-border">
-              <div className="space-y-4">
-                <h3 className="text-xl font-semibold">Plano mensal</h3>
-                
-                <div className="space-y-2">
-                  <p className="text-lg">
-                    De <span className="line-through text-muted-foreground">R$ 297,00</span> por apenas:
-                  </p>
-                  
-                  <div className="text-4xl md:text-5xl font-bold text-primary">
-                    R$97/mês
-                  </div>
-                </div>
-              </div>
-              
-              <div className="space-y-4">
-                {features.map((feature, index) => <div key={index} className="flex items-center space-x-3">
-                    <div className="w-5 h-5 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-primary-foreground text-xs font-bold">✓</span>
-                    </div>
-                    <p className="font-medium">{feature}</p>
-                  </div>)}
-              </div>
-              
-              <Button variant="outline" size="xl" className="w-full" asChild>
-                <a href="https://sun.eduzz.com/50027?utm_source=suzano+express&utm_id=pv">QUERO COMEÇAR AGORA</a>
-              </Button>
-            </Card>
+            
           </div>
           
           <div className="text-center space-y-8">
