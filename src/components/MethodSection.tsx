@@ -3,22 +3,22 @@ import { Card } from "@/components/ui/card";
 export const MethodSection = () => {
   const methodSteps = [{
     title: "Fundamentos:",
-    description: "IA aplicável e domínio completo do n8n, do básico ao avançado"
+    description: "Aprenda desde o zero os fundamentos essenciais do pandeiro com a técnica exclusiva de Marcos Suzano, dominando postura, sons, coordenação e independência."
   }, {
     title: "Criação:",
-    description: "Como criar agentes de IA que resolvem problemas reais."
+    description: "Descubra como criar suas próprias levadas e variações. Desenvolva sua expressão musical com exercícios que estimulam improviso e musicalidade."
   }, {
     title: "Integração:",
-    description: "Conecte com APIs, Whatsapp, CRMs, banco de dados e mais."
+    description: "Aprenda a tocar com outros instrumentos, em rodas, com amigos ou na igreja. Ritmos brasileiros integrados à vivência real da música."
   }, {
     title: "Monetização:",
-    description: "Como transformar suas automações em ofertas de serviço."
+    description: "Veja como o que você aprende no curso pode se transformar em apresentações, aulas, rodas e outras formas de gerar renda com a música."
   }, {
     title: "Vendas:",
-    description: "Como vender para empresas com o pitch certo."
+    description: "Ganhe confiança para mostrar seu som ao vivo, nas redes ou para oportunidades de trabalho musical. Seu pandeiro como sua voz artística."
   }, {
     title: "Escala:",
-    description: "Montando sua Agência de IA para vender em alto volume."
+    description: "Monte um plano de estudo contínuo com base no método Suzano Express e siga evoluindo com clareza, foco e propósito."
   }];
   return (
     <section className="py-20 bg-muted/50">
