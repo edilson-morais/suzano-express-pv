@@ -1,13 +1,10 @@
 import { Button } from "@/components/ui/button";
-
 const heroBackground = "/lovable-uploads/7b88e8cb-6fcf-4d13-8a0a-23b84ca1feb9.png";
-
 export const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-bg">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-bg">
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style={{
-        backgroundImage: `url(${heroBackground})`
-      }} />
+      backgroundImage: `url(${heroBackground})`
+    }} />
       <div className="absolute inset-0 bg-gradient-hero" />
       
       <div className="relative z-10 container mx-auto px-4">
@@ -15,7 +12,11 @@ export const HeroSection = () => {
           {/* Coluna da esquerda - Textos */}
           <div className="space-y-8 text-center lg:text-left">
             <div className="space-y-4">
-              <p className="text-sm uppercase tracking-wide text-primary font-medium">CURSO DE PANDEIRO SUZANO EXPRESS</p>
+              <p className="text-sm uppercase tracking-wide text-primary font-medium">
+
+
+
+CURSO DE PANDEIRO SUZANO EXPRESS</p>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
                 
                 <span className="text-primary">suzano express</span>
@@ -44,17 +45,10 @@ export const HeroSection = () => {
           {/* Coluna da direita - Vídeo */}
           <div className="flex justify-center">
             <div className="w-full max-w-lg aspect-video rounded-lg overflow-hidden shadow-2xl">
-              <iframe 
-                src="https://www.youtube.com/embed/CyIMCbUdjf4" 
-                title="Curso de Pandeiro Suzano Express"
-                className="w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+              <iframe src="https://www.youtube.com/embed/CyIMCbUdjf4" title="Curso de Pandeiro Suzano Express" className="w-full h-full" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
